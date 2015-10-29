@@ -14,6 +14,7 @@
 		B6CD73521BE260950026FA09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CD73501BE260950026FA09 /* LaunchScreen.storyboard */; };
 		B6CD735D1BE260950026FA09 /* TableViewLecturePart2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CD735C1BE260950026FA09 /* TableViewLecturePart2Tests.swift */; };
 		B6CD73681BE260950026FA09 /* TableViewLecturePart2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CD73671BE260950026FA09 /* TableViewLecturePart2UITests.swift */; };
+		B6CD73781BE2721D0026FA09 /* Cell1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CD73771BE2721D0026FA09 /* Cell1TableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B6CD73631BE260950026FA09 /* TableViewLecturePart2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewLecturePart2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CD73671BE260950026FA09 /* TableViewLecturePart2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewLecturePart2UITests.swift; sourceTree = "<group>"; };
 		B6CD73691BE260950026FA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6CD73771BE2721D0026FA09 /* Cell1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell1TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B6CD734E1BE260950026FA09 /* Assets.xcassets */,
 				B6CD73501BE260950026FA09 /* LaunchScreen.storyboard */,
 				B6CD73531BE260950026FA09 /* Info.plist */,
+				B6CD73771BE2721D0026FA09 /* Cell1TableViewCell.swift */,
 			);
 			path = TableViewLecturePart2;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			files = (
 				B6CD734A1BE260950026FA09 /* ViewController.swift in Sources */,
 				B6CD73481BE260950026FA09 /* AppDelegate.swift in Sources */,
+				B6CD73781BE2721D0026FA09 /* Cell1TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

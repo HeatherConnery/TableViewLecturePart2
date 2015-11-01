@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  TableViewLecturePart2
+//  TableViewExploration
 //
-//  Created by Heather Connery on 2015-10-29.
+//  Created by Heather Connery on 2015-11-01.
 //  Copyright © 2015 HConnery. All rights reserved.
 //
 
@@ -12,7 +12,17 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    /* Create an instance of our cell 1 model controller - we do this in AppDelegate since it is a singleton so we can be assured that only one instance will be created. this means we can be assured that when we access the cache it isn't some arbitrary instance or cache
+    
+        AppDelegate -> ModelController -> Model -> ModelController 
+        ViewController -> ModelController -> Model -> ModelController -> ViewController
+    
+        Delegation:
+        ViewController passes block to ModelContoller which consumes block and assigns properties from the model into the block
+    
+        Any functions/vars in AppDelegate are accessible to all parts of App => equivalent of global vars funcs
+    */
+    let cell1ModelController = Cell1ModelController()
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
@@ -35,10 +45,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        populateModels()
     }
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    
+    //Here we tack this on to AppDelegate but not generally how we would really want this done  - network operation -> modelController
+    func populateModels() {
+        
+        let modelTitles = [("Title1","SubTitle1"),("Title2","SubTitle2"),("Title3","SubTitle3"),("Title4","SubTitle4"),("Title5","SubTitle5"),("Title6","SubTitle6")]
+        
+        for modelTitle in modelTitles {
+            cell1ModelController.createAndStoreModelWithTitle(modelTitle.0, andSubtitle: modelTitle.1)
+        }
     }
 
 

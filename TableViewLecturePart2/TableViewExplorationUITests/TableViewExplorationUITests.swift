@@ -1,14 +1,14 @@
 //
-//  TableViewLecturePart2UITests.swift
-//  TableViewLecturePart2UITests
+//  TableViewExplorationUITests.swift
+//  TableViewExplorationUITests
 //
-//  Created by Heather Connery on 2015-10-29.
+//  Created by Heather Connery on 2015-11-01.
 //  Copyright © 2015 HConnery. All rights reserved.
 //
 
 import XCTest
 
-class TableViewLecturePart2UITests: XCTestCase {
+class TableViewExplorationUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

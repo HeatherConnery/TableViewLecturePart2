@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B6CD73431BE260950026FA09"
-               BuildableName = "TableViewLecturePart2.app"
-               BlueprintName = "TableViewLecturePart2"
-               ReferencedContainer = "container:TableViewLecturePart2.xcodeproj">
+               BlueprintIdentifier = "B6EBD6AE1BE65A5D0027BA09"
+               BuildableName = "TableViewExploration.app"
+               BlueprintName = "TableViewExploration"
+               ReferencedContainer = "container:TableViewExploration.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B6CD73571BE260950026FA09"
-               BuildableName = "TableViewLecturePart2Tests.xctest"
-               BlueprintName = "TableViewLecturePart2Tests"
-               ReferencedContainer = "container:TableViewLecturePart2.xcodeproj">
+               BlueprintIdentifier = "B6EBD6C21BE65A5D0027BA09"
+               BuildableName = "TableViewExplorationTests.xctest"
+               BlueprintName = "TableViewExplorationTests"
+               ReferencedContainer = "container:TableViewExploration.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B6CD73621BE260950026FA09"
-               BuildableName = "TableViewLecturePart2UITests.xctest"
-               BlueprintName = "TableViewLecturePart2UITests"
-               ReferencedContainer = "container:TableViewLecturePart2.xcodeproj">
+               BlueprintIdentifier = "B6EBD6CD1BE65A5D0027BA09"
+               BuildableName = "TableViewExplorationUITests.xctest"
+               BlueprintName = "TableViewExplorationUITests"
+               ReferencedContainer = "container:TableViewExploration.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B6CD73431BE260950026FA09"
-            BuildableName = "TableViewLecturePart2.app"
-            BlueprintName = "TableViewLecturePart2"
-            ReferencedContainer = "container:TableViewLecturePart2.xcodeproj">
+            BlueprintIdentifier = "B6EBD6AE1BE65A5D0027BA09"
+            BuildableName = "TableViewExploration.app"
+            BlueprintName = "TableViewExploration"
+            ReferencedContainer = "container:TableViewExploration.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B6CD73431BE260950026FA09"
-            BuildableName = "TableViewLecturePart2.app"
-            BlueprintName = "TableViewLecturePart2"
-            ReferencedContainer = "container:TableViewLecturePart2.xcodeproj">
+            BlueprintIdentifier = "B6EBD6AE1BE65A5D0027BA09"
+            BuildableName = "TableViewExploration.app"
+            BlueprintName = "TableViewExploration"
+            ReferencedContainer = "container:TableViewExploration.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B6CD73431BE260950026FA09"
-            BuildableName = "TableViewLecturePart2.app"
-            BlueprintName = "TableViewLecturePart2"
-            ReferencedContainer = "container:TableViewLecturePart2.xcodeproj">
+            BlueprintIdentifier = "B6EBD6AE1BE65A5D0027BA09"
+            BuildableName = "TableViewExploration.app"
+            BlueprintName = "TableViewExploration"
+            ReferencedContainer = "container:TableViewExploration.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
